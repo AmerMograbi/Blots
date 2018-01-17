@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Blots</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="black">black</string>
+
+    <string name="blot_chooser_header_text">Choose your blot</string>
+    <string name="info_how_to_use_text">Hide info while you\'re using other apps</string>
+    <string name="info_header_text">Ways to use</string>
+    <string name="info_second_header_text">How to use</string>
+    <string name="info_footer_text">And whatever your imagination spurs...</string>
+    <string name="blot_on_finger_up_prompt">Double-click to erase blot</string>
+    <string name="blot_on_remove">Blot erased</string>
+    <string name="go_to_settings_dialog_button">GO TO SETTINGS</string>
+    <string name="cancel_dialog_button">Cancel</string>
+    <string name="ok_dialog_button">OK</string>
+    <string name="blot_on_create">Move your blot to hide anything while you\'re using other apps.</string>
+    <string name="request_permission_dialog_text">In order to blot your screen you need to turn on Permit drawing over other apps.</string>
+    <string name="title_activity_info">InfoActivity</string>
+</resources>

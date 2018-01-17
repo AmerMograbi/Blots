@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="amoor.blots.InfoActivity"
+    android:orientation="vertical"
+    android:background="@color/blot_chooser_activity_background_color">
+
+
+    <TextView
+        android:paddingTop="20dp"
+        android:textSize="22sp"
+        android:text="@string/info_second_header_text"
+        android:id="@+id/tv_info_second_header"
+        style="@style/InfoActivityTextStyle"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:text="@string/info_how_to_use_text"
+        android:id="@+id/tv_how_to"
+        style="@style/InfoActivityTextStyle" />
+
+    <TextView
+        android:paddingTop="30dp"
+        android:textSize="22sp"
+        android:text="@string/info_header_text"
+        android:id="@+id/tv_info_header"
+        style="@style/InfoActivityTextStyle"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:text="① Hide profile pics while texting"
+        android:id="@+id/tv_1"
+        style="@style/InfoActivityTextStyle" />
+
+    <TextView
+        android:text="② Hide distracting sticky ads"
+        android:id="@+id/tv_2"
+        style="@style/InfoActivityTextStyle" />
+
+    <TextView
+        android:text="③ Hide info when taking a screenshot"
+        android:id="@+id/tv_3"
+        style="@style/InfoActivityTextStyle" />
+
+    <TextView
+        android:text="     And more..."
+        android:id="@+id/tv_4"
+        style="@style/InfoActivityTextStyle" />
+
+    <!--<TextView-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:textSize="22sp"-->
+        <!--android:text="And more..."-->
+        <!--android:id="@+id/tv_info_third_header"-->
+        <!--style="@style/InfoActivityTextStyle"-->
+        <!--android:paddingBottom="20dp"-->
+        <!--android:layout_gravity="center_horizontal" />-->
+
+
+</LinearLayout>

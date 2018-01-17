@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blot_chooser_activity_background_color">
+
+    <TextView
+        android:paddingTop="20dp"
+        android:textSize="22sp"
+        android:text="@string/blot_chooser_header_text"
+        android:id="@+id/tv_blot_chooser_header"
+        style="@style/BlotChooserActivityTextStyle"
+        android:layout_gravity="center_horizontal"/>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gv_blots_chooser"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="50dp"
+        android:columnWidth="90dp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        />
+
+
+</FrameLayout>
+

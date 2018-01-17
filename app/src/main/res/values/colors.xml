@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#ff704d</color>
+    <color name="colorAccent">#F44336</color>
+
+    <color name="blot_black">#000000</color>
+
+    <!--BlotsChooserActivity colors-->
+    <color name="blot_chooser_activity_background_color">#ff704d</color>
+    <color name="blot_chooser_activity_color">#ffffff</color>
+    <color name="nav_bar_color">#FF5722</color>
+
+    <color name="info_activity_color">#ffffff</color>
+
+
+
+
+</resources>
